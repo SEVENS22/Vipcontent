@@ -787,9 +787,7 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 					if (!description) description = descElement.innerText.trim();
 				}
 				
-				const price = btnText.replace('Get Now ', '');
-
-				const message = `Hello! I would like to buy:\n\nContent: ${title}\nDescription: ${description}\nPrice: ${price}`;
+				const message = `Hello! I would like to buy:\n\nContent: ${title}\nDescription: ${description}`;
 				window.open(`https://t.me/vipsellerhot1?text=${encodeURIComponent(message)}`, '_blank');
 			});
 		});
